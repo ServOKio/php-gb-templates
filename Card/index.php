@@ -6,17 +6,24 @@ $title = "Haren";
 $subtitle = "Developer | 4";
 $text = "Just has a good day";
 
-//servokio
-//dark
-//moana
-//bell
-//retro
+/*---------------------------------------
+| Темы
+| 1. servokio
+| 2. dark
+| 3. moana
+| 4. bell
+| 5. retro
+---------------------------------------*/
 $theme = "servokio";
-//servokio
-//nightmare
-//moana
-//bell
-//retro
+
+/*---------------------------------------
+| Шрифт
+| 1. servokio
+| 2. nightmare
+| 3. moana
+| 4. moana
+| 5. retro
+---------------------------------------*/
 $fonts = "servokio";
 
 header ("Content-type: image/png");
