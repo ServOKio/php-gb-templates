@@ -1,8 +1,6 @@
 <?php
 /*---------------------------------------
-|
-|
-|
+| Просто карточки
 ---------------------------------------*/
 $title = "Haren";
 $subtitle = "Developer | 4";
@@ -88,7 +86,7 @@ if($fonts == "servokio"){
 
 imagefill($image, 0, 0, $background_color);
 
-// Текст
+//Размер текста
 $len = strlen($title);
 $size = 25;
 if($len == 11){
@@ -127,5 +125,5 @@ imagettftext($image, 20, 0, 30, 85, $subtitle_color, $font_one, $subtitle);
 imagettftext($image, 12, 0, 30, 115, $subtitle_color, $font_two, $text);
 
 ImagePng ($image);
-//imagedestroy($image);
+ImageDestroy($image);
 ?>
