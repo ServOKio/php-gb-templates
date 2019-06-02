@@ -1,2 +1,2 @@
 # php-gb-templates
-![screenshot of sample](http://servokio.ru/Card/)
+[Card](http://servokio.ru/Card/)
